@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma e regjistrimit</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav class = "navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="registration-form">
+        <div class="profile-icon">
+            <img src="contact.webp" alt="Profile Icon">
+        </div>
+        <form>
+            <input type="text" placeholder="Emri dhe Mbiemri">
+            <input type="text" placeholder="Username">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <input type="password" placeholder="Confirm Password">
+            <label for="birthday">Ditëlindja</label>
+            <input type="date" id="birthday">
+            <label for="phone">Numri i Telefonit</label>
+            <input type="tel" id="phone" placeholder="Numri i telefonit">
+            <label for="city">Zgjidh qytetin:</label>
+            <select id="city">
+                <option>Zgjidh qytetin</option>
+                <option>Prishtinë</option>
+                <option>Pejë</option>
+                <option>Ferizaj</option>
+            </select>
+            <label>Gjinia</label>
+            <div class="gender">
+                <input type="radio" name="gender" id="male">
+                <label for="male">Mashkull</label>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Femër</label>
+                <input type="radio" name="gender" id="other">
+                <label for="other">Tjetër</label>
+            </div>
+            <label for="address">Adresa</label>
+            <textarea id="address" placeholder="Shkruani adresën tuaj"></textarea>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    
+</body>
+</html>
